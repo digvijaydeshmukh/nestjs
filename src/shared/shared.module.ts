@@ -7,4 +7,6 @@ import { MapperService } from './mapper/mapper/mapper.service';
   providers: [ConfigurationService, MapperService],
   exports:[ConfigurationService,MapperService]
 })
-export class SharedModule {}
+export class SharedModule {
+  
+}
